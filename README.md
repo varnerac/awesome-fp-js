@@ -6,19 +6,25 @@ Functional programming is a [style of programming](https://wiki.haskell.org/Func
 
 ##### Table of Contents
 
-* [Libraries](#libraries)
-  * [Data Structures](#data-structures)
-  * [Algebraic Data Types](#algebraic-data-types)
-  * [Lenses](#lenses)
-* [Functional Languages that Compile to JavaScript](#functional-languages-that-compile-to-javascript)
-* [Programming Tools](#programming-tools)
-* [Resources](#resources)
-  * [Books](#books)
-  * [Articles](#articles)
-  * [Videos](#videos)
-  * [Examples and Exercises](#examples-and-exercises)
-* [Community](#community)
-* [Contribution](#contribution)
+- [Awesome FP JS ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-fp-js-)
+        - [Table of Contents](#table-of-contents)
+        - [Tags](#tags)
+  - [Libraries](#libraries)
+    - [Data Structures](#data-structures)
+    - [Algebraic Data Types](#algebraic-data-types)
+    - [Lenses](#lenses)
+  - [Functional Languages that Compile to JavaScript](#functional-languages-that-compile-to-javascript)
+  - [Programming Tools](#programming-tools)
+  - [Resources](#resources)
+    - [Books](#books)
+    - [Articles](#articles)
+    - [Videos](#videos)
+    - [Examples and Exercises](#examples-and-exercises)
+  - [Community](#community)
+    - [Related Lists](#related-lists)
+    - [Talk](#talk)
+  - [Contribution](#contribution)
+  - [License](#license)
 
 ##### Tags
 These may be appended to entries.  Each should be preceded by a "+" or "-" to indicate presence or absence of the tag's meaning.  "-" tags should only be included when they are likely to help someone filter libraries for their needs.  For instance, `-TS` tags are probably useful for Typescript users screening for types, but `-CT` tags would be less likely to be helpful to anyone.
@@ -49,7 +55,7 @@ These may be appended to entries.  Each should be preceded by a "+" or "-" to in
 * [functionize](https://github.com/paldepind/functionize) – A collection of functions which aid in making non-functional libraries functional.
 * [lambdajs](https://github.com/loop-recur/lambdajs) – The full ECMAScript API done a functional way.
 * [fp-dom](https://github.com/fp-dom/) – Making the DOM functional.
-* [react-on-lambda](https://github.com/sultan99/react-on-lambda) - Replace JSX in React with functions (currying, compositions and etc). 
+* [react-on-lambda](https://github.com/sultan99/react-on-lambda) - Replace JSX in React with functions (currying, compositions and etc).
 * [trifl](https://github.com/algesten/trifl) – A functional user interface library with unidirectional dataflow and a virtual dom.
 * [funcy](https://github.com/bramstein/funcy) – An experiment in adding functional pattern matching to JavaScript. _Experimental_  :triangular_flag_on_post:
 * [date-fp](https://github.com/cullophid/date-fp) – A functional utility library for working with JavaScript dates. All functions in date-fp are pure, autocurried and will not mutate the date objects they are applied to.
@@ -148,6 +154,7 @@ Use the laws of math instead of always reinventing your own thing. Algebraic!
 * [RacketScript](https://github.com/vishesh/racketscript) – RacketScript aims to leverage both JavaScript and Racket's ecosystem, and make interoperability between them clean and smooth.
 * [Koka](https://www.microsoft.com/en-us/research/project/koka/) – Koka is a function-oriented programming language that seperates pure values from side-effecting computations with a familiar JavaScript like syntax.
 * [TypeScript](https://www.typescriptlang.org/) - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+* [Gleam](https://gleam.run) - Gleam is a functional programming language that compiles to Erlang or JavaScript.
 
 ## Programming Tools
 
